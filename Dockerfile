@@ -10,5 +10,4 @@ EXPOSE 8000
 WORKDIR /app
 
 ADD application/* /app/
-
 CMD [ "python3 app.py" ]
